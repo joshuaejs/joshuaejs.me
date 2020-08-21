@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>joshua sahala</title>
+    <link>https://joshuaejs.me/</link>
+    <description>Recent content on joshua sahala</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 09 Aug 2020 20:14:32 -0700</lastBuildDate>
+    
+	<atom:link href="https://joshuaejs.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>reading list 2020</title>
+      <link>https://joshuaejs.me/posts/reading-list-2020/</link>
+      <pubDate>Mon, 10 Aug 2020 09:44:53 -0700</pubDate>
+      
+      <guid>https://joshuaejs.me/posts/reading-list-2020/</guid>
+      <description>the (partial) list of books that i plan to read, or have finished, in 2020 (in no particular order):
+ Nonviolent Communication Living Nonviolent Communication Stamped from the Beginning How to Be an Antiracist The Autobiography of Malcolm X Things That Make White People Uncomfortable white Fragility The Art of War A Case of Brilliance Me and White Supremacy The Manager&amp;rsquo;s Path Unapologetic Becoming So You Want To Talk About Race Zami killing rage: Ending Racism Hood Feminism  </description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>https://joshuaejs.me/projects/</link>
+      <pubDate>Sun, 09 Aug 2020 20:14:32 -0700</pubDate>
+      
+      <guid>https://joshuaejs.me/projects/</guid>
+      <description> #100DayOfCode challenge 100DaysOfHealth challenge system builder: git + ansible + terraform + {{ stuff }} (project page forthcoming) (re)building my NAS (project page forthcoming) RaspberryPik3s  </description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pik3s Pt1</title>
+      <link>https://joshuaejs.me/posts/raspberry-pikes-pt1/</link>
+      <pubDate>Sun, 09 Aug 2020 15:30:00 -0700</pubDate>
+      
+      <guid>https://joshuaejs.me/posts/raspberry-pikes-pt1/</guid>
+      <description>overview with the announcement of the RaspberryPi-4B, i decided that it would be an inexpensive and fun way to learn Kubernetes by building a four node cluster, with Rancher&amp;rsquo;s k3s, hence raspberry pik3s or rpik3s. i used the pandemic&amp;rsquo;s extended stay-at-home to justify expanding this into an eight node cluster, and octopik3s.io was registered as a place to show graphs, logs, workloads, and whatnot.
+goals  learn RaspberryPi  learn some systems/hardware C programming   learn Kubernetes create a home &amp;lsquo;lab&amp;rsquo;, and automate it  learn Terraform and Go improve Python and Ansible   create pretty graphs with Promethues, Netauto, and Grafana    profit?</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://joshuaejs.me/about/</link>
+      <pubDate>Wed, 05 Aug 2020 19:09:01 -0700</pubDate>
+      
+      <guid>https://joshuaejs.me/about/</guid>
+      <description>hello, i&amp;rsquo;m joshua, my pronouns are they/them/theirs.
+this will be a place for me to share my thoughts, learnings, projects, and other miscellanea&amp;hellip;please note, i tend to not use capitlization.
+all views expressed are my own; any and all art/artwork is copyright its respective owner (myself if not otherwise noted).</description>
+    </item>
+    
+    <item>
+      <title>first</title>
+      <link>https://joshuaejs.me/posts/first/</link>
+      <pubDate>Wed, 29 Jul 2020 17:10:26 -0700</pubDate>
+      
+      <guid>https://joshuaejs.me/posts/first/</guid>
+      <description>obligatory first post</description>
+    </item>
+    
+  </channel>
+</rss>

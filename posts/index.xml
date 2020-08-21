@@ -1,0 +1,117 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on joshua sahala</title>
+		<link>https://joshuaejs.me/posts/</link>
+		<description>Recent content in Posts on joshua sahala</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		<lastBuildDate>Mon, 10 Aug 2020 09:44:53 -0700</lastBuildDate>
+		<atom:link href="https://joshuaejs.me/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>reading list 2020</title>
+			<link>https://joshuaejs.me/posts/reading-list-2020/</link>
+			<pubDate>Mon, 10 Aug 2020 09:44:53 -0700</pubDate>
+			
+			<guid>https://joshuaejs.me/posts/reading-list-2020/</guid>
+			<description>the (partial) list of books that i plan to read, or have finished, in 2020 (in no particular order):
+ Nonviolent Communication Living Nonviolent Communication Stamped from the Beginning How to Be an Antiracist The Autobiography of Malcolm X Things That Make White People Uncomfortable white Fragility The Art of War A Case of Brilliance Me and White Supremacy The Manager&amp;rsquo;s Path Unapologetic Becoming So You Want To Talk About Race Zami killing rage: Ending Racism Hood Feminism  </description>
+			<content type="html"><![CDATA[<p>the (partial) list of books that i plan to read, or have <del>finished</del>, in 2020 (in no particular order):</p>
+<ul>
+<li><del><a href="https://cnvc-bookstore.myshopify.com/collections/general-nvc/products/nonviolent-communication-a-language-of-life-3rd-edition-1">Nonviolent Communication</a></del></li>
+<li><del><a href="https://shop.underground-books.com/book/9781604077872">Living Nonviolent Communication</a></del></li>
+<li><a href="https://shop.underground-books.com/book/9781568585987">Stamped from the Beginning</a></li>
+<li><a href="https://shop.underground-books.com/book/9780525509288">How to Be an Antiracist</a></li>
+<li><a href="https://shop.underground-books.com/book/9780345376718">The Autobiography of Malcolm X</a></li>
+<li><a href="https://www.michaelbennettbook.com/">Things That Make White People Uncomfortable</a></li>
+<li><del><a href="https://shop.underground-books.com/book/9780807047415">white Fragility</a></del></li>
+<li><a href="https://en.wikipedia.org/wiki/The_Art_of_War">The Art of War</a></li>
+<li><a href="https://shop.underground-books.com/book/9781401044725">A Case of Brilliance</a></li>
+<li><a href="https://www.meandwhitesupremacybook.com">Me and White Supremacy</a></li>
+<li><a href="https://www.oreilly.com/library/view/the-managers-path/9781491973882/">The Manager&rsquo;s Path</a></li>
+<li><a href="https://shop.underground-books.com/book/9780807039823">Unapologetic</a></li>
+<li><del><a href="https://shop.underground-books.com/book/9781524763138">Becoming</a></del></li>
+<li><a href="https://shop.underground-books.com/book/9781580058827">So You Want To Talk About Race</a></li>
+<li><a href="https://shop.underground-books.com/book/9780895941220">Zami</a></li>
+<li><a href="https://shop.underground-books.com/book/9780805050271">killing rage: Ending Racism</a></li>
+<li><a href="https://shop.underground-books.com/book/9780525560548">Hood Feminism</a></li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Raspberry Pik3s Pt1</title>
+			<link>https://joshuaejs.me/posts/raspberry-pikes-pt1/</link>
+			<pubDate>Sun, 09 Aug 2020 15:30:00 -0700</pubDate>
+			
+			<guid>https://joshuaejs.me/posts/raspberry-pikes-pt1/</guid>
+			<description>overview with the announcement of the RaspberryPi-4B, i decided that it would be an inexpensive and fun way to learn Kubernetes by building a four node cluster, with Rancher&amp;rsquo;s k3s, hence raspberry pik3s or rpik3s. i used the pandemic&amp;rsquo;s extended stay-at-home to justify expanding this into an eight node cluster, and octopik3s.io was registered as a place to show graphs, logs, workloads, and whatnot.
+goals  learn RaspberryPi  learn some systems/hardware C programming   learn Kubernetes create a home &amp;lsquo;lab&amp;rsquo;, and automate it  learn Terraform and Go improve Python and Ansible   create pretty graphs with Promethues, Netauto, and Grafana    profit?</description>
+			<content type="html"><![CDATA[<h2 id="overview">overview</h2>
+<p>with the announcement of the RaspberryPi-4B, i decided that it would be an <em>inexpensive</em> and fun way to learn Kubernetes by building a four node cluster, with Rancher&rsquo;s k3s, hence <em>raspberry pik3s</em> or <a href="https://github.com/joshuaejs/rpik3s%60"><em>rpik3s</em></a>. i used the pandemic&rsquo;s extended stay-at-home to justify expanding this into an eight node cluster, and <a href="https://octopik3s.io">octopik3s.io</a> was registered as a place to show graphs, logs, workloads, and whatnot.</p>
+<h3 id="goals">goals</h3>
+<ul>
+<li>learn RaspberryPi
+<ul>
+<li>learn some systems/hardware C programming</li>
+</ul>
+</li>
+<li>learn Kubernetes</li>
+<li>create a home &lsquo;lab&rsquo;, and automate it
+<ul>
+<li>learn Terraform and Go</li>
+<li>improve Python and Ansible</li>
+</ul>
+</li>
+<li>create pretty graphs with Promethues, Netauto, and Grafana</li>
+<li></li>
+<li></li>
+<li></li>
+<li>profit? (i am afterall subject to the whims of capitalism)</li>
+<li>&hellip;</li>
+<li>perhaps it will help me to <em>try and take over the world!</em> with some cartoon mice</li>
+</ul>
+<h3 id="hardware">hardware</h3>
+<p>what started as a budget build, turned into something&hellip;a lot more expensive. the dremel was a late addition (more below).</p>
+<ul>
+<li><a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/">RaspberryPi 4</a></li>
+<li>RaspberryPi <a href="https://www.raspberrypi.org/products/poe-hat/">PoE Hat</a></li>
+<li>C4 Labs <a href="https://www.c4labs.com/product/8-slot-stackable-cluster-case-raspberry-pi-3b-and-other-single-board-computers-color-options/">8 Slot Cloudlet Cluster Case</a></li>
+<li>CoolerGuys <a href="https://www.coolerguys.com/collections/usb-fans/products/coolerguys-50mm-dual-usb-fans-50x10">dual 50mm usb fan</a></li>
+<li>Cablecc USB 3.0 to MicroSDXC <a href="https://www.cablecc.com/mini-size-5gbps-super-speed-usb-30-to-micro-sd-sdxc-tf-card-reader-adapter-p-3641.html">card reader</a></li>
+<li>Samsung USB 3.1 FIT Plus <a href="https://www.samsung.com/us/support/owners/product/usb-31-fit-plus-128gb">128Gb</a></li>
+<li>Samsung MicroSDHC EVO Plus <a href="https://www.samsung.com/us/support/owners/product/microsdhc-evoplus-memory-card-32gb">32GB</a></li>
+<li>Tenda 9-port gigabit PoE switch <a href="https://www.newegg.com/p/0XP-0020-00012">TEG1009P-EI</a>
+<ul>
+<li>(new model) Tenda 9-port gigabit PoE switch <a href="https://www.tendacn.com/en/product/TEG1109P-8-102W.html">TEG1109P-8-102W</a></li>
+</ul>
+</li>
+<li>Dremel</li>
+</ul>
+<h3 id="software">software</h3>
+<p>when i started this project, my choices for a 64-bit o/s for arm64 were ubuntu and fedora; i prefer debian-based distros, so my choice was easy.</p>
+<p>Rancher&rsquo;s <a href="https://rancher.com/docs/k3s/latest/en/">K3s</a> was chosen for being a lightweight, fully compliant <a href="https://rancher.com/docs/k3s/latest/en/">Kubernetes</a> distribution.</p>
+<p>etcd and calico were chosen because of the cross-over with work. getting well ahead of myself, i will likely also use (something built on) envoy proxy.</p>
+<ul>
+<li><a href="https://ubuntu.com/download/raspberry-pi">Ubuntu Server</a></li>
+<li>Lightweight Kubernetes <a href="https://k3s.io/">k3s</a></li>
+<li><a href="https://etcd.io/">etcd</a></li>
+<li><em>maybeprobably</em> <a href="https://www.projectcalico.org/">Calico</a></li>
+</ul>
+]]></content>
+		</item>
+		
+		<item>
+			<title>first</title>
+			<link>https://joshuaejs.me/posts/first/</link>
+			<pubDate>Wed, 29 Jul 2020 17:10:26 -0700</pubDate>
+			
+			<guid>https://joshuaejs.me/posts/first/</guid>
+			<description>obligatory first post</description>
+			<content type="html"><![CDATA[<p>obligatory first post</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>
